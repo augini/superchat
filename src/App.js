@@ -9,16 +9,7 @@ import 'firebase/analytics';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
-firebase.initializeApp({
-  apiKey: 'AIzaSyApwconw0I97FWtWtEULPXBMUSQCjb0zRs',
-  authDomain: 'whale-app-41f82.firebaseapp.com',
-  databaseURL: 'https://whale-app-41f82.firebaseio.com',
-  projectId: 'whale-app-41f82',
-  storageBucket: 'whale-app-41f82.appspot.com',
-  messagingSenderId: '178106828908',
-  appId: '1:178106828908:web:b2e095bc380ebf3aca3049',
-  measurementId: 'G-Z5M519SD8T',
-});
+firebase.initializeApp({});
 
 const auth = firebase.auth();
 const firestore = firebase.firestore();
